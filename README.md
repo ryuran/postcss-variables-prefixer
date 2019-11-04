@@ -13,7 +13,7 @@ Install `postcss-cli` and `postcss-variables-prefixer` on your project directory
 npm install postcss-cli postcss-variables-prefixer --save-dev
 ```
 
-and at your package.json
+and in your package.json
 
 ```json
 "scripts": {
@@ -97,4 +97,4 @@ div {
 ```
 
 ## Credits
-Plugin based on [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer) create by [marceloucker](https://github.com/marceloucker).
+Plugin based on [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer) created by [marceloucker](https://github.com/marceloucker).
