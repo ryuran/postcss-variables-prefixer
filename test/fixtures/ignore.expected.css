@@ -1,0 +1,13 @@
+:root {
+  --foo: #f00;
+  --foo-h: 255;
+  --bar: green;
+  --prefix-not-ignored: 10px;
+}
+
+body {
+  color: var(--foo);
+  background: hsl(var(--foo-h), 0%, 50%);
+  border-color: var(--bar);
+  margin-bottom: var(--prefix-not-ignored);
+}

@@ -1,0 +1,58 @@
+{
+  "name": "postcss-variables-prefixer",
+  "version": "0.0.0-alpha.0",
+  "description": "postcss plugin to prefix all css custom properties",
+  "main": "lib/prefixer.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "css-selector-tokenizer": "^0.7.1",
+    "postcss": "^7.0.21"
+  },
+  "peerDependencies": {
+    "postcss": ">= 5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.2",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint ./lib",
+    "prepublish": "npm run lint && npm test"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin",
+    "postcss-prefixer"
+  ],
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryuran/postcss-variables-prefixer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryuran/postcss-variables-prefixer/issues"
+  },
+  "homepage": "https://github.com/ryuran/postcss-variables-prefixer#readme"
+}

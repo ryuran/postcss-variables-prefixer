@@ -1,0 +1,13 @@
+:root {
+  --prefix-foo: #f00;
+  --prefix-foo-h: 255;
+  --prefix-bar: green;
+  --prefix-not-ignored: 10px;
+}
+
+body {
+  color: var(--prefix-foo);
+  background: hsl(var(--prefix-foo-h), 0%, 50%);
+  border-color: var(--prefix-bar);
+  margin-bottom: var(--prefix-not-ignored);
+}
