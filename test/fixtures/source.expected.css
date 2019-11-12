@@ -1,6 +1,8 @@
 :root {
   --prefix-foo: #f00;
   --prefix-foo-h: 255;
+  --prefix-foo-s: 100%;
+  --prefix-foo-l: 100%;
   --prefix-bar: green;
   --prefix-not-ignored: 10px;
 }
@@ -8,6 +10,7 @@
 body {
   color: var(--prefix-foo);
   background: hsl(var(--prefix-foo-h), 0%, 50%);
+  outline-color: hsl(var(--prefix-foo-h), var(--prefix-foo-s), var(--prefix-foo-l));
   border-color: var(--prefix-bar);
   margin-bottom: var(--prefix-not-ignored);
 }

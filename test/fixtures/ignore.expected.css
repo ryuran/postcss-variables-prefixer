@@ -1,6 +1,8 @@
 :root {
   --foo: #f00;
   --foo-h: 255;
+  --foo-s: 100%;
+  --foo-l: 100%;
   --bar: green;
   --prefix-not-ignored: 10px;
 }
@@ -8,6 +10,7 @@
 body {
   color: var(--foo);
   background: hsl(var(--foo-h), 0%, 50%);
+  outline-color: hsl(var(--foo-h), var(--foo-s), var(--foo-l));
   border-color: var(--bar);
   margin-bottom: var(--prefix-not-ignored);
 }
