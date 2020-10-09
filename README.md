@@ -7,17 +7,17 @@ PostCSS plugin to add a prefix to all css custom properties.
 ## Usage
 ### With [PostCSS cli](https://github.com/postcss/postcss-cli):
 
-Install `postcss-cli` and `postcss-variables-prefixer` on your project directory:
+Install `postcss`, `postcss-cli` and `postcss-variables-prefixer` on your project directory:
 
 ```
-npm install postcss-cli postcss-variables-prefixer --save-dev
+npm install postcss postcss-cli postcss-variables-prefixer --save-dev
 ```
 
 and in your package.json
 
 ```json
 "scripts": {
-    "postcss": "postcss input.css -u postcss-variables-prefixer -o output.css"
+  "postcss": "postcss input.css -u postcss-variables-prefixer -o output.css"
 }
 ```
 
