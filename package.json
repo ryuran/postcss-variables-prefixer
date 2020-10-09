@@ -19,7 +19,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.0.4",
     "husky": "^4.0.3",
-    "jest": "^25.1.0"
+    "jest": "^26.5.2"
   },
   "scripts": {
     "test": "jest",
