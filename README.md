@@ -97,4 +97,7 @@ div {
 ```
 
 ## Credits
-Plugin based on [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer) created by [marceloucker](https://github.com/marceloucker).
+
+Plugin inspired by [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer) created by [marceloucker](https://github.com/marceloucker).
+
+Thanks to [Andrey Sitnik @ai](https://github.com/ai) and [Jonathan Neal @jonathantneal](https://github.com/jonathantneal) for the help.
