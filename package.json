@@ -7,11 +7,10 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "css-selector-tokenizer": "^0.7.1",
-    "postcss": "^7.0.23"
+    "css-selector-tokenizer": "^0.7.1"
   },
   "peerDependencies": {
-    "postcss": ">= 5.0.0"
+    "postcss": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
@@ -19,14 +18,15 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.0.4",
     "husky": "^4.0.3",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "postcss": "^8.1.1"
   },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint ./lib",
-    "prepublish": "npm run lint && npm test"
+    "prepare": "npm run lint && npm test"
   },
   "jest": {
     "testEnvironment": "node"

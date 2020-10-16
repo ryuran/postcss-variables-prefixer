@@ -13,4 +13,5 @@ body {
   outline-color: hsl(var(--foo-h), var(--foo-s), var(--foo-l));
   border-color: var(--bar);
   margin-bottom: var(--not-ignored);
+  margin-top: calc(var(--not-ignored) + var(--bar));
 }
