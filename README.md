@@ -1,5 +1,5 @@
 # postcss-variables-prefixer
-[![Build Status](https://travis-ci.org/ryuran/postcss-variables-prefixer.svg?branch=master)](https://travis-ci.org/ryuran/postcss-variables-prefixer) [![dependencies Status](https://david-dm.org/ryuran/postcss-variables-prefixer/status.svg)](https://david-dm.org/ryuran/postcss-variables-prefixer) [![devDependencies Status](https://david-dm.org/ryuran/postcss-variables-prefixer/dev-status.svg)](https://david-dm.org/ryuran/postcss-variables-prefixer?type=dev)
+[![Build Status](https://travis-ci.com/ryuran/postcss-variables-prefixer.svg?branch=master)](https://travis-ci.com/ryuran/postcss-variables-prefixer) [![dependencies Status](https://david-dm.org/ryuran/postcss-variables-prefixer/status.svg)](https://david-dm.org/ryuran/postcss-variables-prefixer) [![devDependencies Status](https://david-dm.org/ryuran/postcss-variables-prefixer/dev-status.svg)](https://david-dm.org/ryuran/postcss-variables-prefixer?type=dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 PostCSS plugin to add a prefix to all css custom properties.
@@ -97,4 +97,7 @@ div {
 ```
 
 ## Credits
-Plugin based on [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer) created by [marceloucker](https://github.com/marceloucker).
+
+Plugin inspired by [postcss-prefixer](https://github.com/marceloucker/postcss-prefixer) created by [marceloucker](https://github.com/marceloucker).
+
+Thanks to [Andrey Sitnik @ai](https://github.com/ai) and [Jonathan Neal @jonathantneal](https://github.com/jonathantneal) for the help.
