@@ -14,7 +14,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^24.3.6",
-    "husky": "^4.0.3",
+    "husky": "^6.0.0",
     "jest": "^26.6.3",
     "postcss": "8.2.13"
   },
@@ -23,15 +23,10 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "lint": "eslint ./lib",
-    "prepare": "npm run lint && npm test"
+    "prepare": "husky install"
   },
   "jest": {
     "testEnvironment": "node"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
   },
   "keywords": [
     "css",
