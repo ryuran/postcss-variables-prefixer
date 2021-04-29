@@ -1,6 +1,6 @@
 {
   "name": "postcss-variables-prefixer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "postcss plugin to prefix all css custom properties",
   "main": "lib/prefixer.js",
   "engines": {
