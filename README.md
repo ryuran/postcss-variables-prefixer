@@ -1,5 +1,5 @@
 # postcss-variables-prefixer
-[![Build Status](https://travis-ci.com/ryuran/postcss-variables-prefixer.svg?branch=master)](https://travis-ci.com/ryuran/postcss-variables-prefixer) [![dependencies Status](https://david-dm.org/ryuran/postcss-variables-prefixer/status.svg)](https://david-dm.org/ryuran/postcss-variables-prefixer) [![devDependencies Status](https://david-dm.org/ryuran/postcss-variables-prefixer/dev-status.svg)](https://david-dm.org/ryuran/postcss-variables-prefixer?type=dev)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/postcss-variables-prefixer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 PostCSS plugin to add a prefix to all css custom properties.
