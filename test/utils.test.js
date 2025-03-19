@@ -1,20 +1,19 @@
 const utils = require('../lib/utils');
 
-
-describe('utls.itMatchsOne()', () => {
+describe('utils.itMatchesOne()', () => {
   test('should fail with non string search term', () => {
     expect(() => {
-      utils.itMatchsOne(['1', '2'], 2);
+      utils.itMatchesOne(['1', '2'], 2);
     }).toThrow();
   });
 
   test('search term should match one of the array entries', () => {
-    const result = utils.itMatchsOne(['lorem', 'ipsum'], 'ipsum');
+    const result = utils.itMatchesOne(['lorem', 'ipsum'], 'ipsum');
     expect(result).toBe(true);
   });
 
   test('search term should NOT match one of the array entries', () => {
-    const result = utils.itMatchsOne(['lorem', 'ipsum'], 'dolor');
+    const result = utils.itMatchesOne(['lorem', 'ipsum'], 'dolor');
     expect(result).toBe(false);
   });
 });
